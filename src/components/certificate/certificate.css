@@ -1,0 +1,51 @@
+.certificate_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.certificate_item{
+    background: var(--color-bg);
+    border-radius: 2rem;
+    padding: 10px;
+    text-align: center;
+    border: 2px;   
+}
+
+.certificate_img img{
+    border-radius: 2rem;
+}
+
+.certificate_item h3{
+   padding: 2px;
+   margin-top: 5px;
+    color: white;
+}
+
+.certificate_item:hover{
+    background: transparent;
+}
+
+/* ============== Media Queries (medium Device) ===============*/
+
+@media screen and (max-width : 1024px) {
+    .certificate_container{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+
+
+/* ============== Media Queries (small Device) ===============*/
+
+@media screen and (max-width : 600px) {
+    .certificate_container{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

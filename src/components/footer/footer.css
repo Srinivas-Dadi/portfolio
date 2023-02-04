@@ -1,0 +1,45 @@
+footer{
+    background: var(--color-bg);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    height: 50vh;
+    margin-top: 7rem;
+}
+
+footer a{
+    color:white;
+}
+
+.footer_logo{
+    font-size: 2rem;
+    font-weight: 500px;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.plink {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.plink a{
+    font-size: 20px;
+    padding: 10px;
+    color: var(--color-primary);
+    
+    border-radius: 1rem;
+}
+
+.footer_social{
+    display:flex;
+    gap: 1rem;
+    text-align: center;
+}
+
+.plink a:hover{
+    color: white;
+    font-size: 25px;
+}

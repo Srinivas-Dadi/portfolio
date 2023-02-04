@@ -1,0 +1,30 @@
+.certify_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+}
+ 
+.certify_item{
+    text-align: center;
+    background: var(--color-bg);
+    border-radius: 2rem;
+    /* border: 5px; */
+}
+
+.certify_img img{
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+
+/* ============== Media Queries (medium Device) ===============*/
+
+@media screen and (max-width : 1024px) {
+    .certify_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+}
+
