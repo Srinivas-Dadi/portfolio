@@ -14,7 +14,7 @@ const Contact = () => {
           <FiMail className='contact_icon'/>
           <p>Gmail</p>
         </article></a>
-        <a href="https://wa.me/7075347089?text=urlencodedtext"><article class="contact_mode">
+        <a href="https://wa.me/+917075347089?text=urlencodedtext"><article class="contact_mode">
           <ImWhatsapp className='contact_icon'/>
           <p>Whatsapp</p>
         </article></a>
